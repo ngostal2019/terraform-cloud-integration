@@ -1,2 +1,3 @@
 # terraform-cloud-integration
-Terraform cloud Integration with GitHub
+
+Terraform Cloud Integration with GitHub
