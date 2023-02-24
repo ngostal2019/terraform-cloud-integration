@@ -20,8 +20,8 @@ resource "aws_instance" "ec2instance" {
     Name        = "Terraform-cloud-in-${each.value}" # Or you may use each.key since we have a set of list
     "ManagedBy" = "Terraform-${each.value}"
     "Env"       = "Dev-${each.value}"
-    "Owner"     = "Staline Ngoma ${each.value}"
-    "Date"      = "02-16-2023-${each.value}"
+    "Owner"     = "Staline Ngoma"
+    "Date"      = "02-24-2023"
   }
 }
 
